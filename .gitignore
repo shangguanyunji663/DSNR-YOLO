@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Ultralytics / 训练产物
+*.cache
+runs/**/weights/*.pt
+runs/**/*.pt
+*.onnx
+*.engine
+
+# 论文 PDF（二进制较大，按需保留；如不需要可删除下面两行）
+# paper/*.pdf
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/

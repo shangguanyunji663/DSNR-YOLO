@@ -1,0 +1,26 @@
+# SIMD 数据集（15 类，论文表4/6 的对比实验）
+# 使用前：下载 SIMD（IEEE DataPort / Kaggle 搜索 "SIMD dataset satellite"），
+#         用 scripts/convert_dior_to_yolo.py 转换后把 path 改成实际路径。
+path: C:/Users/17536/Desktop/DSNR-YOLO学习项目/data/simd
+train: images/train
+val: images/val
+test: images/test
+
+# SIMD 15 类（以官方 README 为准；转换脚本会按字母序重排并打印对照表）
+names:
+  0: bus
+  1: cargo-truck
+  2: dump-truck
+  3: excavator
+  4: minibus
+  5: motorcycle
+  6: small-car
+  7: tanker
+  8: truck-tractor
+  9: van
+  10: other-vehicle
+  11: small-plane
+  12: large-plane
+  13: boat
+  14: barge
+nc: 15

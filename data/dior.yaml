@@ -1,0 +1,31 @@
+# DIOR 数据集（20 类，论文表2/3/5 的主实验）
+# 使用前：先运行 scripts/convert_dior_to_yolo.py 生成下面的目录结构，
+#         然后把 path 改成你机器上的实际路径。
+path: C:/Users/17536/Desktop/DSNR-YOLO学习项目/data/dior
+train: images/train   # 训练集图片（相对 path）
+val: images/val       # 验证集图片
+test: images/test     # 测试集图片（val.py --split test 时使用）
+
+# 类别（转换脚本按字母序固化，与 labels 中的类别 id 一一对应）
+names:
+  0: airplane
+  1: airport
+  2: baseballfield
+  3: basketballcourt
+  4: bridge
+  5: chimney
+  6: expressway-service-area
+  7: expressway-toll-station
+  8: dam
+  9: golffield
+  10: groundtrackfield
+  11: harbor
+  12: overpass
+  13: vehicle
+  14: parkinglot
+  15: ship
+  16: station
+  17: storagetank
+  18: tenniscourt
+  19: windmill
+nc: 20

@@ -1,0 +1,18 @@
+# DSNR-YOLO 学习项目依赖
+# ⚠️ 全部安装到 ML2 环境（不要装进 base！）：
+#    conda activate ML2
+#
+# 第 1 步：安装 CUDA 版 PyTorch（RTX 4060 对应 cu128）
+#    pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+#
+# 第 2 步：安装其余依赖
+#    pip install -r requirements.txt
+
+ultralytics>=8.4.0
+numpy
+opencv-python
+pyyaml
+requests
+tqdm
+psutil
+py-cpuinfo

@@ -1,0 +1,6 @@
+# 自动生成的玩具数据集配置（仅用于跑通流程，不代表真实精度）
+path: C:/Users/17536/Desktop/DSNR-YOLO学习项目/data/toy
+train: images/train
+val: images/val
+nc: 3
+names: ['block', 'circle', 'triangle']
